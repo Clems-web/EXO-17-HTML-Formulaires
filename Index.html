@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercice 17</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="Nom">Nom</label>
+                <input type="text" id="Nom" name="User_name" placeholder="Votre Nom" required autofocus>
+            </div>
+            <div>
+                <label for="Prénom">Prénom</label>
+                <input type="text" id="Prénom" name="User_Prénom" placeholder="Votre Prénom" required>
+            </div>
+            <div>
+                <label for="Password">Mot de passe</label>
+                <input type="password" id="Password" name="User_password" placeholder="Votre mot de passe" required>
+            </div>
+            <div>
+                <label for="date de naissance">Date de naissance</label>
+                <input type="date" id="date de naissance" name="User_Birthdate">
+            </div>
+            <div>
+                <label for="Sexe">Sexe</label>
+                <select id="Sexe" name="User_gender" size="3">
+                    <option value="Male">H</option>
+                    <option value="Female">F</option>
+                    <option value="Others">Autre</option>
+                </select>
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="User_mail" placeholder="Votre E-mail" required>
+            </div>
+            <div>
+                <label for="Url-GitHub">Git-Hub</label>
+                <input type="url" id="Url-GitHub" name="User_Git" placeholder="Votre lien GitHub">
+            </div>
+                <input type="submit" value="Envoyer" name="user_submit">
+        </form>
+    </body>
+</html>
